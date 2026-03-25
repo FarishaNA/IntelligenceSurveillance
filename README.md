@@ -1,6 +1,6 @@
 # Intelligent Surveillance
 
-## Current scope (what exists today)
+## Current scope
 
 At the moment, this repo contains a simple **rule-based bad-word detector** in `bad_word_detector.py`.
 
@@ -43,13 +43,13 @@ result = main("some input text here")
 print(result)
 ```
 
-## Limitations (why it’s not NLP yet)
+## Limitations
 
 - It is **not** a trained NLP model yet.
 - It doesn’t do contextual classification, stemming/lemmatization, or typo/variant handling.
 - The only detection approach is exact word matching against the CSV list.
 
-## Roadmap (what you’re working toward)
+## Future improvements
 
 The project is being improved toward an **NLP-based text classification** system (instead of pure word matching).
 
